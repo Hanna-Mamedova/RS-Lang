@@ -1,6 +1,6 @@
 import * as moment from "moment"
 
-export const BASE_URL = 'https://rslang-pas92.herokuapp.com';
+export const BASE_URL = 'https://rs-langlearnwords.herokuapp.com';
 
 //Word rating = 0..2 - userWord is difficult
 //Word rating = 3..5 - userWord is normal

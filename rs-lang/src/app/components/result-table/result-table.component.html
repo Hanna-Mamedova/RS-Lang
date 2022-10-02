@@ -6,7 +6,7 @@
     <ul class="results">
       <li class="result" *ngFor="let result of data">
         <span class="audio" (click)="playAudio($event)">
-            <audio src="https://rslang-pas92.herokuapp.com/{{result.audio}}"></audio>
+            <audio src="https://rs-langlearnwords.herokuapp.com{{result.audio}}"></audio>
             <mat-icon>volume_up</mat-icon>
           </span>
         {{result.word}} - {{result.wordTranslate}}
